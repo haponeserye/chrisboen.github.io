@@ -1,0 +1,167 @@
+.headertop {
+    font-family: helvetica;
+    font-weight: bold;
+    background-color: black;
+    background-size: cover;
+    margin-top: 0px;
+}
+    .introhead {
+        color: white;
+        display: flex;
+        padding-right: 30px;
+        margin-left: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .logo {
+        float: right;
+    }
+    .headerer {
+        display: inline-block;
+    }
+    .hello {
+        display: inline-block;
+        font-family: helvetica;
+        font-weight: bold;
+        
+    }
+body {
+    background-image: url(bg3.png);
+    margin: 0px;
+    background-attachment: fixed;
+}
+.r {
+    display: inline-block;
+}
+.main {
+    margin-top: 200px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.title {
+    font-family: arial;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+    display: block;
+    background-color: #ffd700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+    know {
+        background-color: blue;
+        color: white;
+    }
+.profile {
+    margin-bottom: 100px;
+}
+.pic {
+    size: 50px;
+    list-style-type: none;
+    font-family: helvetica;
+    font-weight: bolder;
+    float: left;
+    left: 100px;
+    margin-right: 100px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    background-image: url(bg2.png);
+    border-radius: 10px;
+    box-shadow: black 5px;
+}
+.biodata {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 25px;
+    margin-top: 75px;
+    margin-left: 60%;
+    padding-bottom: 5%;
+    background-image: url(bg2.png);
+    border-radius: 10px;
+}
+
+hr {
+    height:2px; 
+    border:none; 
+    color:#333; 
+    background-color:#333;
+}
+
+.mdllogo {
+    background-color: navy;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    width: 160px;
+}
+email {
+    font-size: 22px;
+}
+.subtitle {
+    font-size: small;
+    font-family: helvetica;
+    color: black;
+}
+.description {
+    margin-top: 75px;
+    padding-top: 25px;
+    margin-bottom: 220px;
+    padding-bottom: 25px;
+    margin-left: 60%;
+    background-image: url(bg2.png);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+ul {
+    margin-top: 100px;
+}
+.buttons2 {
+    display: block;
+}
+h2 {
+    display: block;
+    background-color: #004aad;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 1350px;
+    margin-bottom: 50px;
+}
+.closing {    
+    float: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    font-size: 22px; 
+    font-family: arial; 
+    font-weight: bold;
+    border-radius: 50px;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

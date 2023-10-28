@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script src="magbuhos.js"></script>
+        <title>MY PORTFOLIO WEBSITE</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+    </head>
+    <header>
+        <div class="headertop">
+            <div class="headerer"><p class="introhead">MAIN PAGE</p></div>
+            <button class="hello" onclick="sayHello()">Say Hello</button>
+        </div>
+    </header>
+    <body>
+        <div class="main">
+            <div class="title">
+                <center><img src="title.gif" style="height: 150px; width: auto;"></center>
+            </div>
+                <div class="profile">
+                <div class="pro"><img class="pic" src="profile.png" style="height: 60%; width: auto; box-shadow: black 25px;"></div>
+                <div class="pro"><ul class="biodata">
+                    <li>Name: Chris Boen Magbuhos</li>
+                    <li>Birthday: March 16, 2006</li>
+                    <li>Birthplace: Oriental Mindoro</li><hr>
+                    <li><a href="https://www.instagram.com/boenmgbhs/" target="_blank"><img src="instagram_PNG10.png" alt="Instagram" width="35px"></a>
+                        <a href="https://twitter.com/boenmgbhs" target="_blank"><img src="R.png" alt="Twitter" width="37px"></a>
+                        <a class="mdl" href="https://mydramalist.com/profile/chrizkayriko" target="_blank"><img class="mdllogo" src="logo_w.png" alt="MyDramaList"></a>
+                        <email>chrisboen8@gmail.com</email></li>
+                        <br>
+                        <br>
+                        <br>
+                    <li>Try to guess my age!
+                        <br>
+                        <p class="subtitle">※ The following is equipped with 3 Javascript concepts; Javascript object, Javascript function, and Javascript conditional. Please see the Javascript raw code.</p>
+                    </li>
+                    <br><br>
+                    <li><form>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age">
+                        <input type="button" onclick="ageVerifier()" value="Submit">
+                      </form>
+                    </li>
+                    <br><br>
+                    <li><p id="display"></p></li>
+                    <li><p id="sc"></p></li>
+                </ul></div>
+                <div class="description" style="font-size: 30px; font-family: Courier New;">
+                    Chris is a student.
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function sayHello() {
+            alert("Hello, world!");
+            }
+        </script>
+    </body>
+    <footer>
+        <center><p class="copyright">© CHRIS BOEN MAGBUHOS</p></center>
+    </footer>
+</html>
